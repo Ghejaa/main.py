@@ -1,0 +1,21 @@
+#cotoo
+
+print('CRINGE','LOL','EZ', 'ROFL', 'SHEESH', 'NOOB', 'ILY')
+meme_dict = {
+            "CRINGE": "Sesuatu yang sangat aneh atau memalukan",
+            "LOL": "Tanggapan umum terhadap sesuatu yang lucu",
+            "EZ" : "Ini mah artinya terlalu mudah",
+            "ROFL": "Tanggapan terhadap lelucon",
+            "SHEESH": "Sedikit ketidaksetujuan",
+            "NOOB": "Kamu cupu",
+            "ILY": "Diah cintah kamuh :3"
+            }
+            
+word = input("Ketik kata yang tidak Kamu mengerti (gunakan huruf kapital yaww): ")
+
+if word in meme_dict.keys():
+    # Apa yang harus kita lakukan jika kata itu ditemukan?
+    print('ini artinya :', meme_dict[word],'CMIIW')
+else:
+    # Apa yang harus kita lakukan jika kata itu tidak ditemukan?
+    print("not pound :(")
